@@ -87,7 +87,7 @@ public class WaypointsList extends MapScreen {
 			DrawHelper.drawRightAlignedString(matrixStack, waypoint.pos.toShortString(), posX, stringY, Colors.WHITE);
 			
 			editButton.render(matrixStack, mouseX, mouseY, delta);
-			tpButton.render(matrixStack, mouseX, mouseY, delta);
+			// tpButton.render(matrixStack, mouseX, mouseY, delta);
 			deleteButton.render(matrixStack, mouseX, mouseY, delta);
 		}
 	
